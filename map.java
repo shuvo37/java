@@ -1,5 +1,4 @@
-	
-		Map<String  , Integer> mp = new HashMap<>();
+	Map<String  , Integer> mp = new HashMap<>();
 		
 		
 		  mp.put("a",1);
@@ -10,6 +9,10 @@
 		  
 		  mp.put("a", mp.getOrDefault("a" , 0) + 3);
 		  
+		  mp.put("c" ,  9);
+		  
+		//  mp.remove("c");
+		  
 		  
 		  for(String key : mp.keySet())
 		  {
@@ -17,4 +20,3 @@
 			 System.out.println(key + " " + mp.get(key)); 
 			  
 		  }
-		
