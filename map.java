@@ -12,6 +12,8 @@
 		  mp.put("c" ,  9);
 		  
 		//  mp.remove("c");
+
+        // clear();
 		  
 		  
 		  for(String key : mp.keySet())
